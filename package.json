@@ -1,0 +1,22 @@
+{
+  "name": "fabioassuncao.github.io",
+  "version": "1.0.0",
+  "description": "My personal homepage",
+  "author": "Fábio Assunção",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabioassuncao/fabioassuncao.github.io"
+  },
+  "scripts": {
+    "build": "yarn && gulp build",
+    "validate": "npm ls"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-strip-css-comments": "^1.2.0"
+  }
+}
