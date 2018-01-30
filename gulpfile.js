@@ -20,18 +20,18 @@ gulp.task('css', function(){
     .pipe(concat('styles.css'))
     .pipe(stripCssComments({all: true}))
     .pipe(cssmin())
-    .pipe(gulp.dest('dist/assets/css'));
+    .pipe(gulp.dest('./assets/css'));
 });
 
 gulp.task('img', function(){
     gulp.src(paths.img)
     //.pipe(imagemin())
-    .pipe(gulp.dest('dist/assets/img'));
+    .pipe(gulp.dest('./assets/img'));
 });
 
 gulp.task('html', function(){
     gulp.src(paths.html)
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('build', ['css', 'img', 'html']);
