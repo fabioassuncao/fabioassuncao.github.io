@@ -11,7 +11,8 @@ const paths = {
         'src/assets/img/**/*'
     ],
     html: [
-    	'src/index.html'
+    	'src/index.html',
+        'src/404.html'
     ]
 };
 
